@@ -196,7 +196,6 @@ public class BlockSyncTask implements Runnable {
 
     private void syncEther() {
         try {
-            System.out.println(1);
             Token token = TokenUtils.getTokenById(AccountUtils.getDefaultIdentify());
             Web3j web3j = Web3jUtils.getWeb3j();
             int fromBlock = 0;

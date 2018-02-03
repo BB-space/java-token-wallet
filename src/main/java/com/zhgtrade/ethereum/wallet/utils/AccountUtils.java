@@ -57,8 +57,8 @@ public class AccountUtils {
     public static final String ETHER_TYPE = ConfigUtils.getConfig("ether.type");
 
     private static String getKeyStoreDir() {
-//        return "../keystore";
-        return "keystore-test";
+        return "../keystore";
+//        return "keystore-test";
     }
 
     public static String getDefaultIdentify() {
